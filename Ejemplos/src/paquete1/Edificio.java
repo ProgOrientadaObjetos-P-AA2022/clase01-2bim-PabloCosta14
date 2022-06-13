@@ -33,12 +33,13 @@ public class Edificio {
     public double obtenerCosto() {
         return costo;
     }
+
     @Override
-    public String toString(){
-    String reporte = String.format("%s(%.2f)",
-            nombre,costo);
-    
-    return reporte;
-    
+    public String toString() {
+        String reporte = String.format("%s(%.2f)",
+                nombre, costo);
+
+        return reporte;
+
     }
 }
